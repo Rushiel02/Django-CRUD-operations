@@ -7,7 +7,7 @@ def employee_list(request):
 
 def employee_form(request):
     form = EmployeeForm()
-    return render(request,"employee_register/employee_form.html",{'form:':form})
+    return render(request,"employee_register/employee_form.html",{'form':form})
 
 def employee_delete(request):
     return
